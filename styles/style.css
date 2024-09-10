@@ -606,7 +606,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and ((min-width: 360px) and (max-width: 414px)) {
 
     .header {
         margin-bottom: 58px;
