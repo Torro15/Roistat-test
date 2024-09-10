@@ -20,7 +20,7 @@
             <li><a href="#">Цены</a></li>
         </ul>
     </div>
-<!-- Хедер -->
+    <!-- Хедер -->
     <header class="header">
         <div class="container">
             <div class="header__menu">
@@ -54,14 +54,14 @@
                     d="M2.00002 315C2.00002 315.552 2.44773 316 3.00002 316C3.5523 316 4.00002 315.552 4.00002 315H2.00002ZM4.00002 315L4 -62L2 -62L2.00002 315H4.00002Z"
                     fill="#8F8FFF" />
             </svg>
-        </div>
-        <div class="header__img">
-            <svg class="star-img" width="327" height="333" viewBox="0 0 327 333" fill="none"
+            <div class="header__img"> <img class="header-img" src="images/star.svg" alt="Star">  </div>
+            
+            <!-- <svg class="header__img" width="327" height="333" viewBox="0 0 327 333" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M219.902 194.299L309.186 167.433L209.436 152.555L232.053 42.2781L168.06 124.184L88.1461 27.8374L128.543 146.332L17.5679 161.979L136.145 200.251L107.681 323.193L181.679 220.774L255.291 289.224L219.902 194.299Z"
                     stroke="white" stroke-width="23.9667" />
-            </svg>
+            </svg> -->
         </div>
     </header>
     <!-- Главный блок -->
@@ -86,18 +86,22 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="line__img">
-            <picture>
-                <source srcset="images/line-img-360.png" media="(max-width: 414px)">
-                <img class="line-img" src="images/line-img.png" alt="Line">
-            </picture>
+            <div class="line__img">
+                <picture>
+                    <source srcset="images/line-img-360.png" media="(max-width: 414px)">
+                    <img class="line-img" src="images/line-img.png" alt="Line">
+                </picture>
+            </div>
         </div>
     </section>
     <!-- Дополнительный текст -->
     <section class="add">
-        <p class="add__text">*Акция не распространяется на подключение опций, лимитов, которые были подключены ранее до
-            1.11.2023 Количество предложений ограничено</p>
+        <div class="container">
+            <p class="add__text">*Акция не распространяется на подключение опций, лимитов, которые были подключены ранее
+                до
+                1.11.2023 Количество предложений ограничено</p>
+        </div>
+
     </section>
     <!-- Модальное окно -->
     <div id="modal" class="modal">>

@@ -65,7 +65,7 @@ body {
     background-image: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: top;
-
+    overflow-x: hidden;
 
 }
 
@@ -173,7 +173,7 @@ li {
     z-index: -1;
 }
 
-.star-img {
+.header__img {
     display: block;
     position: absolute;
     top: 57px;
@@ -491,7 +491,7 @@ form input {
         margin-bottom: 23px;
     }
 
-    .star-img {
+    .header__img {
         width: 255px;
         top: 24px;
         right: 27px;
@@ -518,7 +518,7 @@ form input {
 
     .add__text {
         margin-top: 27px;
-        margin-right: 60px;
+        margin-right: 20px;
     }
 }
 
@@ -564,11 +564,11 @@ form input {
         transform: rotate(-7deg);
     }
 
-    .star-img {
-        width: 189px;
-        top: 36px;
-        right: 1px;
-        transform: rotate(19deg);
+    .header__img {
+        width: 24%;
+        top: 93px;
+        left: 74%;
+
     }
 
     .main__block-info-label {
@@ -598,10 +598,11 @@ form input {
     }
 
     .add__text {
-        margin-top: -61px;
-        margin-right: 19px;
+        margin-top: -67px;
+        margin-right: 0px;
     }
 }
+
 
 @media screen and (max-width: 414px) {
 
@@ -753,10 +754,10 @@ form input {
         margin-bottom: 24px;
     }
 
-    .star-img {
+    .header__img {
         width: 132px;
-        top: -21px;
-        right: -25px;
+        top: 82px;
+        left: 62%;
         transform: rotate(6deg)
     }
 
@@ -775,7 +776,7 @@ form input {
     }
 
     .modal-content {
-        width: 88%;
+        width: 90%;
         margin: 0;
 
     }
@@ -801,6 +802,13 @@ form input {
         top: -107px;
         right: 105px;
     }
+
+    .header__img {
+        width: 34%;
+        top: 74px;
+        left: 64%;
+        transform: rotate(6deg);
+      }
 }
 
 @media screen and (max-width:360px) {
@@ -808,4 +816,6 @@ form input {
         top: -107px;
         right: 89px;
     }
+
+    
 }
