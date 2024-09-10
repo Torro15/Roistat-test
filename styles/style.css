@@ -603,10 +603,11 @@ form input {
     }
 }
 
-@media screen and ((min-width: 320px) and (max-width: 414px)) {
+@media screen and (max-width: 414px) {
 
     .header {
         margin-bottom: 58px;
+        overflow: hidden;
     }
 
     .header__menu {
@@ -718,8 +719,8 @@ form input {
     }
 
     .stick-right {
-        top: -101px;
-        right: 90px;
+        top: -107px;
+        right: 145px;
     }
 
     .main__block-info-title {
@@ -774,7 +775,7 @@ form input {
     }
 
     .modal-content {
-        width: 100%;
+        width: 88%;
         margin: 0;
 
     }
@@ -792,5 +793,19 @@ form input {
     .form__button,
     label {
         width: 90%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .stick-right {
+        top: -107px;
+        right: 105px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .stick-right {
+        top: -107px;
+        right: 89px;
     }
 }
