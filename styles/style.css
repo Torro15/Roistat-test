@@ -556,7 +556,6 @@ form input {
         font-size: 94px;
         transform: rotate(7deg);
         margin-left: -33px;
-
     }
 
     .main__block-info-title span {
@@ -564,7 +563,6 @@ form input {
         margin-left: 13px;
         transform: rotate(-7deg);
     }
-
 
     .star-img {
         width: 189px;
@@ -750,6 +748,7 @@ form input {
     }
 
     .main__block-info-btn-text {
+        width: 100%;
         margin-bottom: 24px;
     }
 
