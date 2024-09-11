@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Проверка телефона
         if (phone !== '' && !validatePhone(phone)) {
-            phoneError.textContent = 'Введите действительный номер телефона';
+            phoneError.textContent = 'Номер телефона должен начинаться с +7 и содержать 10 цифр после';
             isValid = false;
         }
 
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function validatePhone(phone) {
         // Проверка валидности номера телефона
-        const re = /^\+?\d{10,15}$/;
+        const re = /^\+7\d{10}$/;
         return re.test(phone);
     }
 });
