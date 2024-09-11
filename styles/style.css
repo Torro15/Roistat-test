@@ -493,8 +493,12 @@ form input {
 
     .header__img {
         width: 255px;
-        top: 24px;
+        top: 65px;
         right: 27px;
+        overflow: hidden;
+    }
+
+    .header-img {
         transform: rotate(-9deg);
     }
 
@@ -565,10 +569,13 @@ form input {
     }
 
     .header__img {
-        width: 24%;
-        top: 93px;
+        width: 25%;
+        top: 107px;
         left: 74%;
+    }
 
+    .header-img {
+        transform: rotate(-35deg);
     }
 
     .main__block-info-label {
@@ -758,8 +765,12 @@ form input {
         width: 132px;
         top: 82px;
         left: 62%;
-        transform: rotate(6deg)
     }
+
+    .header-img {
+        transform: rotate(-48deg);
+    }
+
 
     .add__text {
         display: block;
@@ -805,10 +816,9 @@ form input {
 
     .header__img {
         width: 34%;
-        top: 74px;
-        left: 64%;
-        transform: rotate(6deg);
-      }
+        top: 86px;
+        left: 65%;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -817,5 +827,4 @@ form input {
         right: 89px;
     }
 
-    
 }
