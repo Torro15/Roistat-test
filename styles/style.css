@@ -787,8 +787,8 @@ form input {
     }
 
     .modal-content {
-        width: 90%;
-        margin: 0;
+        width: 100%;
+        margin: 0 auto;
 
     }
 
@@ -804,7 +804,7 @@ form input {
     form input,
     .form__button,
     label {
-        width: 90%;
+        width: 100%;
     }
 }
 
